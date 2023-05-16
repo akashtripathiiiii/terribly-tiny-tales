@@ -2,6 +2,9 @@
 
 This is a web application for counting the frequency of words in a text document and displaying the results in a histogram and a word frequency table.
 
+## Deploy
+https://terribly-tiny-tales-1bp20ox7v-akashtripathiiiii.vercel.app/
+
 ## How To Create
 
 To use the application, follow these steps:
