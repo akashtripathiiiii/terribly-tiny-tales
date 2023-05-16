@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Terribly Tiny Tales Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application for counting the frequency of words in a text document and displaying the results in a histogram and a word frequency table.
 
-## Available Scripts
+## How To Create
 
-In the project directory, you can run:
+To use the application, follow these steps:
 
-### `npm start`
+1. Open your terminal or command prompt.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Run the following command to create a new React application using npx and create-react-app: `npx create-react-app terribly-tiny-tales`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Navigate to the project directory: `cd terribly-tiny-tales-assignment`
 
-### `npm test`
+4. Start the development server: `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Install the dependencies: `npm install <library-name>`
 
-### `npm run build`
+6. Open your browser and visit `http://localhost:3000` to access the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+7. Click the "Submit" button.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+8. The histogram and word frequency table will be displayed with the results.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+9. Click on "Export" button to download csv file.
 
-### `npm run eject`
+10. Click on "Back" button to go to "Submit" button page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Components
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application consists of the following components:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `App`: The main component that handles the fetching of word frequency data and renders the Histogram and WordFrequencyTable components.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `Histogram`: Renders a histogram chart based on the word frequency data.
 
-## Learn More
+- `WordFrequencyTable`: Displays a table showing the word frequency data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `SubmitButton`: Renders a button for submitting the text document and triggering the word frequency calculation.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Libraries and Plugins Used
 
-### Code Splitting
+The application utilizes the following libraries and plugins:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React: A JavaScript library for building user interfaces.
 
-### Analyzing the Bundle Size
+- react-chartjs-2: A React wrapper for Chart.js, used for rendering the histogram chart.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- react-csv: A lightweight library for creating and downloading CSV files in React applications.
