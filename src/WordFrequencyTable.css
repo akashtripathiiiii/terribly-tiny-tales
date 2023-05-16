@@ -1,0 +1,68 @@
+.table-container {
+    max-height: 570px;
+    overflow-y: scroll;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .word-frequency-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  .word-frequency-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    top: 0;
+    z-index: 1;
+    background-color: #f2f2f2;
+  }
+  
+  .word-frequency-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+    width: 69%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .footer button {
+    margin: 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .button-container button {
+    margin-left: 10px;
+  }
+  
